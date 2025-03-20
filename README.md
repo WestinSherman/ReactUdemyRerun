@@ -11,3 +11,4 @@ Mar/18th/2025:
     S_61(611), you can put javascript inside of an hyper text markup language(HTML) if you wrap it in curly brackets({}).
     S_61(612), got to learn how to create a 6 sided die roller. I used ChatGPT to understand the Math.random function stuff.
     S_61(613), just got to see that you can move components into other components. Worked on the DiceRoll component.
+    S_61(614), learned that you can put multiple names in the same classname attribute.
