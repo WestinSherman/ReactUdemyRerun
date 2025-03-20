@@ -12,3 +12,4 @@ Mar/18th/2025:
     S_61(612), got to learn how to create a 6 sided die roller. I used ChatGPT to understand the Math.random function stuff.
     S_61(613), just got to see that you can move components into other components. Worked on the DiceRoll component.
     S_61(614), learned that you can put multiple names in the same classname attribute.
+    S_61(615), I was actually able to figure out how to create the Random Pokemon renderer... With the help of ChatGPT.
