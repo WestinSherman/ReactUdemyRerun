@@ -13,3 +13,4 @@ Mar/18th/2025:
     S_61(613), just got to see that you can move components into other components. Worked on the DiceRoll component.
     S_61(614), learned that you can put multiple names in the same classname attribute.
     S_61(615), I was actually able to figure out how to create the Random Pokemon renderer... With the help of ChatGPT.
+    S_61(616), just a Uniform Recourse Loctaor for the previouse exercise.
