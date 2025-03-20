@@ -15,3 +15,5 @@ Mar/18th/2025:
     S_61(615), I was actually able to figure out how to create the Random Pokemon renderer... With the help of ChatGPT.
     S_61(616), just a Uniform Recourse Loctaor for the previouse exercise.
     S_62(617), this is where Colt shows us how to run React on our local machine via Vite. Had to fix the naming of the files. Aciddentally put the actually guts of the file in a file named the same thing multiple time. It was a mess.
+    S_62(618), just talks about how the "Creat React App" is old and slower than Vite.
+    I don't do any code in this section other than Markdown.
