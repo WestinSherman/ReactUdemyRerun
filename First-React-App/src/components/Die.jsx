@@ -1,5 +1,7 @@
-export default function Die({ numSides }) {
+export default function Die({ numSides = 6 }) {
     console.log(numSides);
     const roll = Math.floor(Math.random() * 6) + 1
-    return <p>{numSides}-sided Die roll: {roll}</p>
+    return (
+        <p>{numSides}-sided Die roll: {roll}</p>
+    )
 }

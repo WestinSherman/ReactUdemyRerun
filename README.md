@@ -21,3 +21,5 @@ Mar/18th/2025:
     S_62(620), Colt has us create and connect the css file to the jsx file, where he just puts the files in the same directory. I on the other hand, created two other directories and put the jsx file in the components directory and the css file in the styles directory. This will require me to connect the two file via import differently. I will have to specify where the files are reletive to eachother.
     S_63(621), here Colt shows that you can add a prop to the in the () after the name of the function. You connect them via the attribute. Just create a new attribute called anything you want. Props are function arguments.
     S_63(622), here Colt shows us more on Props which make it more dynamic. Added another attribute.
+    S_63(623), here I learn that you can and how to set defaults for the attributes.
+    So if you don't give one, the default will show up.
