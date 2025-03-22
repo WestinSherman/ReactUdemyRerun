@@ -18,3 +18,4 @@ Mar/18th/2025:
     S_62(618), just talks about how the "Creat React App" is old and slower than Vite.
     I don't do any code in this section other than Markdown.
     S_62(619), found out that .tsx is just has some additional stuff than jsx but they do mainly the same thing.
+    S_62(620), Colt has us create and connect the css file to the jsx file, where he just puts the files in the same directory. I on the other hand, created two other directories and put the jsx file in the components directory and the css file in the styles directory. This will require me to connect the two file via import differently. I will have to specify where the files are reletive to eachother.

@@ -1,3 +1,4 @@
+import "../styles/Chicken.css";
 export default function Chicken() {
-    return <p>Bock Bock Bock</p>;
+    return <p className="Chicken">Bock Bock Bock</p>;
 }
