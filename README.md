@@ -17,3 +17,4 @@ Mar/18th/2025:
     S_62(617), this is where Colt shows us how to run React on our local machine via Vite. Had to fix the naming of the files. Aciddentally put the actually guts of the file in a file named the same thing multiple time. It was a mess.
     S_62(618), just talks about how the "Creat React App" is old and slower than Vite.
     I don't do any code in this section other than Markdown.
+    S_62(619), found out that .tsx is just has some additional stuff than jsx but they do mainly the same thing.
