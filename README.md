@@ -23,3 +23,5 @@ Mar/18th/2025:
     S_63(622), here Colt shows us more on Props which make it more dynamic. Added another attribute.
     S_63(623), here I learn that you can and how to set defaults for the attributes.
     So if you don't give one, the default will show up.
+    S_63(624), the curly braces {} tell React that we want it to treat whatever is inbetween them as javascript. It is also know as the syntax to escape JSX. So if you want to put an object into escaped javascript then you would do this: 
+    {{a:1, b:2}}.
