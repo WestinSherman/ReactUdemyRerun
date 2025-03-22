@@ -26,3 +26,4 @@ Mar/18th/2025:
     S_63(624), the curly braces {} tell React that we want it to treat whatever is inbetween them as javascript. It is also know as the syntax to escape JSX. So if you want to put an object into escaped javascript then you would do this: 
     {{a:1, b:2}}.
     S_63(625), this is where Colt teaches how to put conditional logic into our output of a component. You want to always try and not unessisarily clutter up the code with empty elements.
+    S_63(626), Colt just shows us how and where to install the React Developer Tools in chrome web store. This just makes it easior to see the components and the hierarchy of the components in the dev tools on chrome.
