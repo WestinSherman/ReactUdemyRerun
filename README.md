@@ -27,3 +27,8 @@ Mar/18th/2025:
     {{a:1, b:2}}.
     S_63(625), this is where Colt teaches how to put conditional logic into our output of a component. You want to always try and not unessisarily clutter up the code with empty elements.
     S_63(626), Colt just shows us how and where to install the React Developer Tools in chrome web store. This just makes it easior to see the components and the hierarchy of the components in the dev tools on chrome.
+    S_63(627), Colt shows how to connect cascading style sheets again. For some reason we now do inline styling for dynamic styling with a provided javascript object. Kebab casing is when you put a Hyphen between words(first-second).
+    Static styling goes in another file, dynamic styling goes inline or at lease on the same file(style attribute). First pair of curly braces escapes jsx/writing javascript, the second pair defines an object.
+    S_63(628)
+    S_63(629)
+    

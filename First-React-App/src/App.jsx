@@ -4,10 +4,12 @@ import Greeter from './components/Greeter'
 import Die from './components/Die'
 import ListPicker from './components/ListPicker'
 import DoubleDice from './components/DoubleDice'
+import Heading from './components/Heading'
 
 function App() {
     return (
         <div>
+            <Heading color="cyan" text="welcome" />
             <DoubleDice />
             <DoubleDice />
             <DoubleDice />
