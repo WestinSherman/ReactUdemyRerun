@@ -5,15 +5,18 @@ import Die from './components/Die'
 import ListPicker from './components/ListPicker'
 import DoubleDice from './components/DoubleDice'
 import Heading from './components/Heading'
+import ColorList from './components/ColorList'
 
 function App() {
     return (
         <div>
-            <Heading color="cyan" text="welcome" />
+            <ColorList colors={["red", "pink", "purple", "teal"]} />
+            <ColorList colors={["black", "cyan", "black", "cyan"]} />
+            {/*<Heading color="cyan" text="welcome" />
             <DoubleDice />
             <DoubleDice />
             <DoubleDice />
-            {/*<ListPicker values={[1, 2, 3]} />
+            <ListPicker values={[1, 2, 3]} />
             <ListPicker values={["A", "B", "C"]} />
             <Greeter person="Violet" from="ME" />
             <Greeter person="Alia" />

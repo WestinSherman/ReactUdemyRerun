@@ -29,6 +29,6 @@ Mar/18th/2025:
     S_63(626), Colt just shows us how and where to install the React Developer Tools in chrome web store. This just makes it easior to see the components and the hierarchy of the components in the dev tools on chrome.
     S_63(627), Colt shows how to connect cascading style sheets again. For some reason we now do inline styling for dynamic styling with a provided javascript object. Kebab casing is when you put a Hyphen between words(first-second).
     Static styling goes in another file, dynamic styling goes inline or at lease on the same file(style attribute). First pair of curly braces escapes jsx/writing javascript, the second pair defines an object.
-    S_63(628)
+    S_63(628), I don't feel like I abosorbed the information from this session. I think I was supposed to understand how the `.map` makes the `li` for each thing in an array.(Rendering multiple elements in a loop) = "React way".
     S_63(629)
     
