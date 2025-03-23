@@ -30,5 +30,12 @@ Mar/18th/2025:
     S_63(627), Colt shows how to connect cascading style sheets again. For some reason we now do inline styling for dynamic styling with a provided javascript object. Kebab casing is when you put a Hyphen between words(first-second).
     Static styling goes in another file, dynamic styling goes inline or at lease on the same file(style attribute). First pair of curly braces escapes jsx/writing javascript, the second pair defines an object.
     S_63(628), I don't feel like I abosorbed the information from this session. I think I was supposed to understand how the `.map` makes the `li` for each thing in an array.(Rendering multiple elements in a loop) = "React way".
-    S_63(629), here Colt shows us an assignment to create a slot machine.
-    
+    S_63(629), here Colt shows us an assignment to create a slot machine. I was actually able to complete the exercise without finishing the video first.
+    S_64(630), created a ShoppingList component. I did manage to create it without watching the whole video which was nice. Had some trouble remembering how the ? : operator. Found out its called a ternary operator which is a short hand way of writting an if else statement in javascript. This is what ChatGPT gave me:
+    `condition ? expressionIfTrue : expressionIfFalse;`.
+    S_64(631),
+    S_64(632),
+    S_64(633),
+    S_64(634),
+    S_64(635),
+    S_64(636),
