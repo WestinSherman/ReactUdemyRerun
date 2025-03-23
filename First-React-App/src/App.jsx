@@ -6,13 +6,16 @@ import ListPicker from './components/ListPicker'
 import DoubleDice from './components/DoubleDice'
 import Heading from './components/Heading'
 import ColorList from './components/ColorList'
+import SlotMachine from './components/SlotMachine'
 
 function App() {
     return (
         <div>
-            <ColorList colors={["red", "pink", "purple", "teal"]} />
+            <SlotMachine slot1="🍒" slot2="🍌" slot3="🍒" />
+            <SlotMachine slot1="🍒" slot2="🍒" slot3="🍒" />
+            {/*<ColorList colors={["red", "pink", "purple", "teal"]} />
             <ColorList colors={["black", "cyan", "black", "cyan"]} />
-            {/*<Heading color="cyan" text="welcome" />
+            <Heading color="cyan" text="welcome" />
             <DoubleDice />
             <DoubleDice />
             <DoubleDice />

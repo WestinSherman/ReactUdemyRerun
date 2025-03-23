@@ -30,5 +30,5 @@ Mar/18th/2025:
     S_63(627), Colt shows how to connect cascading style sheets again. For some reason we now do inline styling for dynamic styling with a provided javascript object. Kebab casing is when you put a Hyphen between words(first-second).
     Static styling goes in another file, dynamic styling goes inline or at lease on the same file(style attribute). First pair of curly braces escapes jsx/writing javascript, the second pair defines an object.
     S_63(628), I don't feel like I abosorbed the information from this session. I think I was supposed to understand how the `.map` makes the `li` for each thing in an array.(Rendering multiple elements in a loop) = "React way".
-    S_63(629)
+    S_63(629), here Colt shows us an assignment to create a slot machine.
     
