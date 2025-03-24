@@ -1,10 +1,13 @@
+import ShoppingListItem from "./ShoppingListItem"
 export default function ShoppingList({ items }) {
     return (
         <ul>
-            {items.map((i) => <li key={i.id} style={{
-                color: i.isPurchased ? "grey" : "cyan",
-                textDecoration: i.isPurchased ? "line-through" : "none"
-            }}>{i.item} - {i.units}</li>)}
+            {items.map((i) => (
+                <ShoppingListItem
+                    key={i.id}
+                    {...i}
+                />
+            ))}
         </ul>
     )
 }

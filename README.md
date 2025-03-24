@@ -35,7 +35,7 @@ Mar/18th/2025:
     `condition ? expressionIfTrue : expressionIfFalse;`.
     **S_64(631)**, here we address the missing key prop. This what Google dev tools gave me: hook.js:608 Each child in a list should have a unique "key" prop.
 Check the render method of `ShoppingList`. I also didn't understand what the `items.map((i) key{i.id}`. I don't understand how that means that they all have id's now. KEY PROPS!!! Just following the rules of React. Its not neccesary.
-    **S_64(632)**,
+    **S_64(632)**, here we are just going to move the `li` from the shopping component and create a new component with just the `li` part in it. Couldn't just copy and paste on this one. Had to rewrite a lot of stuff just to put the `li`'s in another component. The `...` (Spread operator) allows you to get everything from the something without actually typing everything out.
     **S_64(633)**,
     **S_64(634)**,
     **S_64(635)**,
