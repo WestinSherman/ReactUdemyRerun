@@ -41,6 +41,6 @@ Check the render method of `ShoppingList`. I also didn't understand what the `it
     **S_64(635)**, this was just a short video showing how to remove an error about prop types but I either already done it so it didn'r show up or VS code has upgraded.. or something like that.
     **S_64(636)**, I chose to skip this session this time around just because I dont care.
     **S_65(637)**, this session is about event listeners. You have to create another function as a reference for it to know what to do when it is clicked. If you have `()` after a function name, the function will exicute immediately when the page loads.
-    **S_65(638)**,
+    **S_65(638)**, Colt shows other event listeners. In React event listeners are camelcased. In Javascript they are just lowercased.
     **S_65(639)**,
     **S_65(640)**,
