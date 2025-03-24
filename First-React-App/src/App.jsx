@@ -9,6 +9,7 @@ import ColorList from './components/ColorList'
 import SlotMachine from './components/SlotMachine'
 import ShoppingList from './components/ShoppingList'
 import PropertyList from './components/PropertyList'
+import Clicker from './components/Clicker'
 
 //const data = [
 //    { id: 1, item: "Chicken", units: 1, isPurchased: true },
@@ -17,20 +18,21 @@ import PropertyList from './components/PropertyList'
 //    { id: 4, item: "Burger", units: 3, isPurchased: true },
 //]
 
-const properties = [
-    { id: 129031, name: "Desert Yurt", price: 150, rating: 4.9 },
-    { id: 129331, name: "Lone Mountain Cabin", price: 250, rating: 4.8 },
-    { id: 129032, name: "Cactus Retreat", price: 300, rating: 4.75 },
-    { id: 129033, name: "Redwood Treehouse Escape", price: 120, rating: 4.9 },
-    { id: 129034, name: "Oceanview Condo", price: 140, rating: 4.7 },
-    { id: 129035, name: "Gold Miner Campground", price: 96, rating: 4.69 },
-];
+//const properties = [
+//    { id: 129031, name: "Desert Yurt", price: 150, rating: 4.9 },
+//    { id: 129331, name: "Lone Mountain Cabin", price: 250, rating: 4.8 },
+//    { id: 129032, name: "Cactus Retreat", price: 300, rating: 4.75 },
+//    { id: 129033, name: "Redwood Treehouse Escape", price: 120, rating: 4.9 },
+//    { id: 129034, name: "Oceanview Condo", price: 140, rating: 4.7 },
+//    { id: 129035, name: "Gold Miner Campground", price: 96, rating: 4.69 },
+//];
 
 function App() {
     return (
         <div>
-            <PropertyList properties={properties} />
-            {/*<SlotMachine slot1="🍒" slot2="🍌" slot3="🍒" />
+            <Clicker />
+            {/*<PropertyList properties={properties} />
+            <SlotMachine slot1="🍒" slot2="🍌" slot3="🍒" />
             <SlotMachine slot1="🍒" slot2="🍒" slot3="🍒" />
             <ShoppingList items={data} />
             <ColorList colors={["red", "pink", "purple", "teal"]} />
