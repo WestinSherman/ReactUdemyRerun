@@ -1,7 +1,7 @@
 export default function ShoppingList({ items }) {
     return (
         <ul>
-            {items.map(i => <li style={{
+            {items.map((i) => <li key={i.id} style={{
                 color: i.isPurchased ? "grey" : "cyan",
                 textDecoration: i.isPurchased ? "line-through" : "none"
             }}>{i.item} - {i.units}</li>)}

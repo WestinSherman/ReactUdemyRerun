@@ -10,10 +10,10 @@ import SlotMachine from './components/SlotMachine'
 import ShoppingList from './components/ShoppingList'
 
 const data = [
-    { item: "Chicken", units: 1, isPurchased: true },
-    { item: "Pie", units: 2, isPurchased: false },
-    { item: "Rice", units: 3, isPurchased: false },
-    { item: "Burger", units: 3, isPurchased: true },
+    { id: 1, item: "Chicken", units: 1, isPurchased: true },
+    { id: 2, item: "Pie", units: 2, isPurchased: false },
+    { id: 3, item: "Rice", units: 3, isPurchased: false },
+    { id: 4, item: "Burger", units: 3, isPurchased: true },
 ]
 
 function App() {
