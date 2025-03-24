@@ -30,9 +30,9 @@ function App() {
     return (
         <div>
             <PropertyList properties={properties} />
-            {/*<ShoppingList items={data} />
-            <SlotMachine slot1="🍒" slot2="🍌" slot3="🍒" />
+            {/*<SlotMachine slot1="🍒" slot2="🍌" slot3="🍒" />
             <SlotMachine slot1="🍒" slot2="🍒" slot3="🍒" />
+            <ShoppingList items={data} />
             <ColorList colors={["red", "pink", "purple", "teal"]} />
             <ColorList colors={["black", "cyan", "black", "cyan"]} />
             <Heading color="cyan" text="welcome" />

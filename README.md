@@ -37,6 +37,6 @@ Mar/18th/2025:
 Check the render method of `ShoppingList`. I also didn't understand what the `items.map((i) key{i.id}`. I don't understand how that means that they all have id's now. KEY PROPS!!! Just following the rules of React. Its not neccesary.
     **S_64(632)**, here we are just going to move the `li` from the shopping component and create a new component with just the `li` part in it. Couldn't just copy and paste on this one. Had to rewrite a lot of stuff just to put the `li`'s in another component. The `...` (Spread operator) allows you to get everything from the props without actually typing everything out.
     **S_64(633)**, here we make a PropertyList component. I think I should go throught this session again just because I could not figure out how to do it without watching the video. I won't though... at least not yet.
-    **S_64(634)**,
-    **S_64(635)**,
+    **S_64(634)**, this just had the data I needed to complete session 633.
+    **S_64(635)**, this was just a short video showing how to remove an error about prop types but I either already done it so it didn'r show up or VS code has upgraded.. or something like that.
     **S_64(636)**,
