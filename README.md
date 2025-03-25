@@ -43,4 +43,4 @@ Check the render method of `ShoppingList`. I also didn't understand what the `it
     **S_65(637)**, this session is about event listeners. You have to create another function as a reference for it to know what to do when it is clicked. If you have `()` after a function name, the function will exicute immediately when the page loads.
     **S_65(638)**, Colt shows other event listeners. In React event listeners are camelcased. In Javascript they are just lowercased.
     **S_65(639)**, create a form component with event listeners. Learnt `preventDefault` for submitting without page refresh.
-    **S_65(640)**,
+    **S_65(640)**, I couldn't figure out how to get the message to work. It would just say that it wasn't defined but I quadruple checked and there weren't any typos. I forgot to add my failed version to git to see if I could figure out what I did wrong when I compare it to the correct version.
