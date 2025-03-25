@@ -44,3 +44,10 @@ Check the render method of `ShoppingList`. I also didn't understand what the `it
     **S_65(638)**, Colt shows other event listeners. In React event listeners are camelcased. In Javascript they are just lowercased.
     **S_65(639)**, create a form component with event listeners. Learnt `preventDefault` for submitting without page refresh.
     **S_65(640)**, I couldn't figure out how to get the message to work. It would just say that it wasn't defined but I quadruple checked and there weren't any typos. I forgot to add my failed version to git to see if I could figure out what I did wrong when I compare it to the correct version.
+    **S_66(641)**, were doing another clicker but with another component called Counter. Learning about React concept "State". If you have data change in a component, you need to use state or the page wont actually change/update.
+    **S_66(642)**
+    **S_66(643)**
+    **S_66(644)**
+    **S_66(645)**
+    **S_66(646)**
+    **S_66(647)**

@@ -11,6 +11,7 @@ import ShoppingList from './components/ShoppingList'
 import PropertyList from './components/PropertyList'
 import Clicker from './components/Clicker'
 import Form from './components/Form'
+import Counter from './components/Counter'
 
 //const data = [
 //    { id: 1, item: "Chicken", units: 1, isPurchased: true },
@@ -31,9 +32,10 @@ import Form from './components/Form'
 function App() {
     return (
         <div>
-            <Clicker message="HI!!!" buttonText="Please Click Me" />
+            <Counter />
+            {/*<Clicker message="HI!!!" buttonText="Please Click Me" />
             <Clicker message="Something different" buttonText="Please Click Me" />
-            {/*<Form />
+            <Form />
             <PropertyList properties={properties} />
             <SlotMachine slot1="🍒" slot2="🍌" slot3="🍒" />
             <SlotMachine slot1="🍒" slot2="🍒" slot3="🍒" />
