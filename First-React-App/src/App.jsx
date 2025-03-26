@@ -1,17 +1,18 @@
-import './styles/App.css'
-import Chicken from './components/Chicken'
-import Greeter from './components/Greeter'
-import Die from './components/Die'
-import ListPicker from './components/ListPicker'
-import DoubleDice from './components/DoubleDice'
-import Heading from './components/Heading'
-import ColorList from './components/ColorList'
-import SlotMachine from './components/SlotMachine'
-import ShoppingList from './components/ShoppingList'
-import PropertyList from './components/PropertyList'
-import Clicker from './components/Clicker'
-import Form from './components/Form'
-import Counter from './components/Counter'
+import './styles/App.css';
+import Chicken from './components/Chicken';
+import Greeter from './components/Greeter';
+import Die from './components/Die';
+import ListPicker from './components/ListPicker';
+import DoubleDice from './components/DoubleDice';
+import Heading from './components/Heading';
+import ColorList from './components/ColorList';
+import SlotMachine from './components/SlotMachine';
+import ShoppingList from './components/ShoppingList';
+import PropertyList from './components/PropertyList';
+import Clicker from './components/Clicker';
+import Form from './components/Form';
+import Counter from './components/Counter';
+import Toggler from './components/Toggler';
 
 //const data = [
 //    { id: 1, item: "Chicken", units: 1, isPurchased: true },
@@ -32,8 +33,10 @@ import Counter from './components/Counter'
 function App() {
     return (
         <div>
+            <Toggler />
+            {/* !!!Start!!!
             <Counter />
-            {/*<Clicker message="HI!!!" buttonText="Please Click Me" />
+            <Clicker message="HI!!!" buttonText="Please Click Me" />
             <Clicker message="Something different" buttonText="Please Click Me" />
             <Form />
             <PropertyList properties={properties} />
@@ -53,7 +56,8 @@ function App() {
             <Greeter from="MY second" />
             <Die numSides={20} />
             <Die />
-            <Die numSides={4} />*/}
+            <Die numSides={4} />
+            !!!End!!!*/}
         </div>
     )
 }
