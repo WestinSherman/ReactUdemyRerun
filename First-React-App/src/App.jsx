@@ -13,6 +13,7 @@ import Clicker from './components/Clicker';
 import Form from './components/Form';
 import Counter from './components/Counter';
 import Toggler from './components/Toggler';
+import ToggleCounter from './components/ToggleCounter';
 
 //const data = [
 //    { id: 1, item: "Chicken", units: 1, isPurchased: true },
@@ -33,8 +34,9 @@ import Toggler from './components/Toggler';
 function App() {
     return (
         <div>
-            <Toggler />
+            <ToggleCounter />
             {/* !!!Start!!!
+            <Toggler />
             <Counter />
             <Clicker message="HI!!!" buttonText="Please Click Me" />
             <Clicker message="Something different" buttonText="Please Click Me" />

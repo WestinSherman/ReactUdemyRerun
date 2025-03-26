@@ -47,7 +47,9 @@ Check the render method of `ShoppingList`. I also didn't understand what the `it
     **S_66(641)**, were doing another clicker but with another component called Counter. Learning about React concept "State". If you have data change in a component, you need to use state or the page wont actually change/update.
     **S_66(642)**, this session is about how to use State in a component. In this video we just learn how to get it to work. `useState(0)`(React Hook) is a function built into React. Trying to get the view to update. `useState` returns an array. I also couldn't figure out what the difference is between variable and values because when I looked it up, they get described using eachothers names... basically saying they can be the same thing.
     **S_66(643)**, making a Toggler component. Had to create another function but I had to put it inside the component(Nested function).
-    <!--**S_66(644)**
+    **S_66(644)**, you can have multiple pieces of state in a component. Creating ToggleCounter component. So I basically duplicated the Toggler component and just added some const's and another `<p></p>` and a button to increment the toggle count.
+    <!--
     **S_66(645)**
     **S_66(646)**
-    **S_66(647)**-->
+    **S_66(647)**
+    -->
