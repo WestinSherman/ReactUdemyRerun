@@ -34,10 +34,10 @@ import ToggleCounter from './components/ToggleCounter';
 function App() {
     return (
         <div>
-            <ToggleCounter />
-            {/* !!!Start!!!
-            <Toggler />
             <Counter />
+            {/* !!!Start!!!
+            <ToggleCounter />
+            <Toggler />
             <Clicker message="HI!!!" buttonText="Please Click Me" />
             <Clicker message="Something different" buttonText="Please Click Me" />
             <Form />
