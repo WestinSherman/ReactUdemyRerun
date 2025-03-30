@@ -1,23 +1,16 @@
-export default function ColorBoxs({ colors }) {
-    const randColor = colors[Math.floor(Math.random() * colors.length)];
-    const handleClick = () => {
-        const randColor = colors[Math.floor(Math.random() * colors.length)];
-        document.querySelector(".ColorBox").style.backgroundColor = randColor;
-        console.log(randColor);
+import { useState } from "react";
+import "../styles/ColorBox.css";
 
+export default function ColorBox() {
+    const [color, setColor] = useState("cyan");
+    const changeColor = () => {
+        setColor("orange");
+        return (
+            <div
+                className="ColorBox"
+                onClick={changeColor}
+                style={{ backgroundColor: color }}
+            ></div >
+        );
     }
-    const style = {
-        backgroundColor: randColor,
-        width: "200px",
-        height: "200px",
-        border: "1px solid",
-    }
-    return (
-        <div>
-            <h1>Color Box</h1>
-            <div className="ColorBox" style={style} onClick={handleClick}>
-
-            </div>
-        </div>
-    )
 }
