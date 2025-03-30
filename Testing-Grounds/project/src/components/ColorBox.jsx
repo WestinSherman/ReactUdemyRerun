@@ -1,5 +1,4 @@
-import "../styles/ColorBox.css";
-export default function ColorBox({ colors }) {
+export default function ColorBoxs({ colors }) {
     const randColor = colors[Math.floor(Math.random() * colors.length)];
     const handleClick = () => {
         const randColor = colors[Math.floor(Math.random() * colors.length)];
@@ -16,7 +15,7 @@ export default function ColorBox({ colors }) {
     return (
         <div>
             <h1>Color Box</h1>
-            <div className="ColorBox" style={style} onClick={() => handleClick()}>
+            <div className="ColorBox" style={style} onClick={handleClick}>
 
             </div>
         </div>
