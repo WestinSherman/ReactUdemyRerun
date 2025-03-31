@@ -1,4 +1,7 @@
 .ColorBox {
-    width: 200px;
-    height: 200px;
+    display: flex;
+    width: 20%;
+    height: 20%;
+    /*border-radius: 8px;
+    margin: 5px;*/
 }
