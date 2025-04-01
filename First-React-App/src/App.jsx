@@ -14,8 +14,8 @@ import Form from './components/Form';
 import Counter from './components/Counter';
 import Toggler from './components/Toggler';
 import ToggleCounter from './components/ToggleCounter';
-import ColorBoxes from './components/ColorBoxes';
 import ColorBox from './components/ColorBox';
+import ColorBoxGrid from './components/ColorBoxGrid';
 
 //const data = [
 //    { id: 1, item: "Chicken", units: 1, isPurchased: true },
@@ -33,33 +33,33 @@ import ColorBox from './components/ColorBox';
 //    { id: 129035, name: "Gold Miner Campground", price: 96, rating: 4.69 },
 //];
 
+const colors = [
+    "#1A1A1A",
+    "#2B2B2B",
+    "#333333",
+    "#4A4A4A",
+    "#555555",
+    "#666666",
+    "#7A7A7A",
+    "#8F8F8F",
+    "#999999",
+    "#A9A9A9",
+    "#00FFFF",
+    "#00E5E5",
+    "#00CCCC",
+    "#00B2B2",
+    "#009999",
+    "#008080",
+    "#006666",
+    "#004C4C",
+    "#003333",
+    "#001A1A",
+];
+
 function App() {
     return (
         <div>
-            <ColorBox
-                colors={[
-                    "#1A1A1A",
-                    "#2B2B2B",
-                    "#333333",
-                    "#4A4A4A",
-                    "#555555",
-                    "#666666",
-                    "#7A7A7A",
-                    "#8F8F8F",
-                    "#999999",
-                    "#A9A9A9",
-                    "#00FFFF",
-                    "#00E5E5",
-                    "#00CCCC",
-                    "#00B2B2",
-                    "#009999",
-                    "#008080",
-                    "#006666",
-                    "#004C4C",
-                    "#003333",
-                    "#001A1A",
-                ]}
-            />
+            <ColorBoxGrid colors={colors} />
             {/* !!!Start!!!
             <Counter />
             <ToggleCounter />
