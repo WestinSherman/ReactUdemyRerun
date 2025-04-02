@@ -56,9 +56,10 @@ Check the render method of `ShoppingList`. I also didn't understand what the `it
     **S_67(650)**, moving to another directory called State-Demo. Here I follow along and create the components directory and styles directory. Then I create the  Counter component and remove most of what Vite put in the `App.jsx`. In this session Colt creates the Counter component but first shows us how not to make it and why, even though it works. Correct way to update state ex: 
     `setCount((currectState) => currentState + 1)`.
     **S_67(651)**, creating a component called Dumbo. Something about not having to run the whole function again every time the page is reset by just passing the function in the component but not executing it.
+    **S_67(652)**, we learn what React re-render. If you do the `setCount((currectState) => currentState + 1)`, React will batch the states together and only re-render once. React checks if the value is the same when you ask it to change something. If the value is already what you asked then it won't even re-render the page because it doesn't have anything to change.
+
 
     <!--
-    **S_67(652)**
     **S_67(653)**
     **S_67(654)**
     **S_67(655)**
