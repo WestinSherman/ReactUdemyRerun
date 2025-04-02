@@ -53,3 +53,14 @@ Check the render method of `ShoppingList`. I also didn't understand what the `it
     **S_66(647)**,  a video of how the rendering of the component function works and how the state and all that make the page rerendered every time the button is clicked.
     **S_66(648)**, an exercise involving state. Where there is a square made up of 25 smaller squares that randomize the background colors every time they are clicked. which requires the page to rerender. Creating a ColorBoxes component. I have created another directory called Testing-Grounds and will use it to try and figure out how to complete this exercise by playing around with it. I'll create another vite thing. Could not figure out how to do it on my own :(
     **S_66(649)**, The Solution to S_66(648). I couldn't figure out how to complete to exercise on my own or with rewatching the other videos, but I did try and I will be git committing before I restart and follow the tutorial. I seem to be having trouble doing it the way Colt is showing. So I will try and do the way I got it to work with ChatGPT. Well I can get Colts code to work, or mine. I guess I'll just completely restart the session. Finally!!! It works!!! I did do a lot of different stuff on my version so that is probably why it didn't work the last few times :(
+    **S_67(650)**, moving to another directory called State-Demo. Here I follow along and create the components directory and styles directory. Then I create the  Counter component and remove most of what Vite put in the `App.jsx`. In this session Colt creates the Counter component but first shows us how not to make it and why, even though it works. Correct way to update state ex: 
+    `setCount((currectState) => currentState + 1)`
+    <!--**S_67(651)**
+    **S_67(652)**
+    **S_67(653)**
+    **S_67(654)**
+    **S_67(655)**
+    **S_67(656)**s
+    **S_67(657)**
+    **S_67(658)**
+    **S_67(659)**-->
