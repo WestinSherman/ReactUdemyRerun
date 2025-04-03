@@ -60,9 +60,9 @@ Check the render method of `ShoppingList`. I also didn't understand what the `it
     **S_67(653)**: making the ScoreKeeper component. React will increase the score but will not re-render it so we can see it becase it the score is an object AKA (wrapped in `{}`). React looks at the identity of the state. You have to create a whole new copy of the object/state in order for React to re-render. You can do this via the spread operator AKA(`...`) followed by the object that you want all previous values. This creates a new object containing the old values of the object. Updating state via object.
     **S_67(654)**: arrays in state. Built the EmojiClicker component. Like with the ScoreKeeper component, we create an oldEmoji and and spread it so we can add the new stuff to a copy of the oldEmoji.
     **S_67(655)**: Generation Ids with UUID. Adding an Id to each emoji is useful because it allows for easy removal of emoji by Id. Usually Id's come from a data base but we will be getting them from an Id library AKA(UUID). In other words we wouldn't be able to create all the Id's ours selves like I had thought previously, or at least not where we will be constantly adding and removing items with new Id's. I don't understand how the `e` works but whatever. Tried figuring it out via ChatGPT but I couldn't make sense of it.
+    **S_67(656)**: Deleting From Arrays The React Way. Refresher: "Booleans are true or false". To add to the array, you need to create a copy via the spread operator and then add to that copy of it. To remove a value from the array, you need to use `.filter`.
 
     <!--
-    **S_67(656)**
     **S_67(657)**
     **S_67(658)**
     **S_67(659)**
